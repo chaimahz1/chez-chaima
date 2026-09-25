@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Quicksand', sans-serif ;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+
+
+/* Container principal */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header avec nom et titre */
+header {
+    background: url("img-projet-final/repasdelajournee.jpeg" ) center center/cover fixed no-repeat;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    margin: 5px 0;
+    font-size: 1.2rem;
+}
+
+/* Section Profil */
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #d4a236;
+    margin-bottom: 15px;
+}
+
+/* Style pour les coordonnées */
+.contact {
+    margin-top: 10px;
+}
+
+.contact p {
+    margin: 5px 0;
+}
+
+/* Liste de compétences */
+ul {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+/* Style pour les langues */
+.languages {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Adaptation mobile */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+}
